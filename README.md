@@ -14,6 +14,9 @@ Competencia: H1N1 and Seasonal Flu Vaccines - Aprendizaje para predecir un probl
 ## Videos
 [Entrega 2](https://youtu.be/8sZhMG-_CPo)
 
+## Notebook
+[Proyecto_IA](https://colab.research.google.com/drive/1s77dTCO_lwHxf8CKk4WMUZE2s5PxLVh9?usp=sharing)
+
 ## Como agregar un conjunto de datos a Google Colab
 Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo JSON de token de Kaggle, siguiendo estos pasos:
 
@@ -31,14 +34,16 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
 
    - Ejecutar el siguiente comando en una celda de Colab para instalar la biblioteca de Kaggle:
 
-     ```!pip install kaggle```
+     ```python
+     !pip install kaggle
 
 *4. Mover el archivo JSON a la ubicación correcta:*
 
    - Mover el archivo kaggle.json al directorio correcto donde la biblioteca de Kaggle espera encontrarlo. Utilizar el siguiente comando:
 
-     ```!mkdir -p ~/.kaggle```
-     ```!mv kaggle.json ~/.kaggle/```
+     ```python
+     !mkdir -p ~/.kaggle
+     !mv kaggle.json ~/.kaggle/
      
 *5. Cambiar los permisos del archivo JSON:*
 
@@ -50,7 +55,8 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
 
    - Usar la biblioteca de Kaggle para descargar el conjunto de datos que deseas en Colab. 
 
-     ```!kaggle datasets download -d <H1N1_Flu_Vaccines>```
+     ```python
+     !kaggle datasets download -d <H1N1_Flu_Vaccines>
 
    - Esto descarga el conjunto de datos en formato ZIP a el entorno de Colab.
 
@@ -58,6 +64,7 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
 
    - Descomprima el archivo ZIP descargado usando el siguiente comando :
 
-     ```!unzip <H1N1_Flu_Vaccines.zip>```
+     ```python
+     !unzip <H1N1_Flu_Vaccines.zip>
      
    - Esto descomprime el conjunto de datos y se puede acceder a los archivos para su análisis.
