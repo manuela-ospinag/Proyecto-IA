@@ -27,14 +27,14 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
 
    - Ejecutar el siguiente comando en una celda de Colab para instalar la biblioteca de Kaggle:
 
-     !pip install kaggle
+     ```!pip install kaggle```
 
 *4. Mover el archivo JSON a la ubicación correcta:*
 
    - Mover el archivo kaggle.json al directorio correcto donde la biblioteca de Kaggle espera encontrarlo. Utilizar el siguiente comando:
 
-     ! mkdir -p ~/.kaggle
-     ! mv kaggle.json ~/.kaggle/
+     ```!mkdir -p ~/.kaggle```
+     ```!mv kaggle.json ~/.kaggle/```
      
 *5. Cambiar los permisos del archivo JSON:*
 
@@ -46,7 +46,7 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
 
    - Usar la biblioteca de Kaggle para descargar el conjunto de datos que deseas en Colab. 
 
-     ! kaggle datasets download -d <H1N1_Flu_Vaccines>
+     ```!kaggle datasets download -d <H1N1_Flu_Vaccines>```
 
    - Esto descarga el conjunto de datos en formato ZIP a el entorno de Colab.
 
