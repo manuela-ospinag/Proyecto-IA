@@ -40,7 +40,7 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
 
    Para proteger tus credenciales, se debe asegurar que el archivo JSON tenga permisos adecuados. Para ello, se utiliza el siguiente comando para establecer permisos restrictivos:
 
-     !chmod 600 ~/.kaggle/kaggle.json
+     ```!chmod 600 ~/.kaggle/kaggle.json```
 
 *6. Descargue el conjunto de datos de Kaggle:*
 
