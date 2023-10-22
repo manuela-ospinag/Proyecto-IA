@@ -40,7 +40,7 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
 
    Para proteger tus credenciales, se debe asegurar que el archivo JSON tenga permisos adecuados. Para ello, se utiliza el siguiente comando para establecer permisos restrictivos:
 
-     ```!chmod 600 ~/.kaggle/kaggle.json```
+     !chmod 600 ~/.kaggle/kaggle.json
 
 *6. Descargue el conjunto de datos de Kaggle:*
 
@@ -54,6 +54,6 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
 
    - Descomprima el archivo ZIP descargado usando el siguiente comando :
 
-     ! unzip <H1N1_Flu_Vaccines.zip>
+     ```!unzip <H1N1_Flu_Vaccines.zip>```
      
    - Esto descomprime el conjunto de datos y se puede acceder a los archivos para su análisis.
