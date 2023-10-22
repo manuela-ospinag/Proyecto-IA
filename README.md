@@ -11,6 +11,10 @@ Eliana Salas Villa - C.C. 1193579584 - Bioingeniería
 
 Competencia: H1N1 and Seasonal Flu Vaccines - Aprendizaje para predecir un problema multi-etiqueta con las vacunas contra la gripe H1N1 y estacional
 
+## Videos
+[Entrega 2](https://youtu.be/8sZhMG-_CPo)
+
+## Como agregar un conjunto de datos a Google Colab
 Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo JSON de token de Kaggle, siguiendo estos pasos:
 
 *1. Preparar el token de Kaggle:*
