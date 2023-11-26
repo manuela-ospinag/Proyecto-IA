@@ -14,10 +14,19 @@ Competencia: H1N1 and Seasonal Flu Vaccines - Aprendizaje para predecir un probl
 ## Videos
 [Entrega 2](https://youtu.be/8sZhMG-_CPo)
 
+[Entrega Final](https://youtu.be/Dvz3B8Ftvgw)
+
 ## Notebook
-[Proyecto_IA](https://colab.research.google.com/drive/1s77dTCO_lwHxf8CKk4WMUZE2s5PxLVh9?usp=sharing)
+[01 - modelos supervisados](https://colab.research.google.com/drive/1bj4SZnySrO_dFzbc_xvIA3PVs7q2LSZp?authuser=1)
+
+[02 - modelos compuestos](https://colab.research.google.com/drive/1y3qbQ_zskMVxRi4y5BwVCwZCjgN_8rzY?authuser=1)
+
+[03 - Variacion de estructuras](https://colab.research.google.com/drive/1s77dTCO_lwHxf8CKk4WMUZE2s5PxLVh9?authuser=1)
+
+[04 - modelos supervisados con datos balanceados](https://colab.research.google.com/drive/1p7Uw27U8gtHg2Do9h4dnKEfFaRTA-ZNi?authuser=1)
 
 ## Como agregar un conjunto de datos a Google Colab
+### Con archivo .json obtenido desde Kaggle
 Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo JSON de token de Kaggle, siguiendo estos pasos:
 
 *1. Preparar el token de Kaggle:*
@@ -68,3 +77,15 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
      !unzip <H1N1_Flu_Vaccines.zip>
      
    - Esto descomprime el conjunto de datos y se puede acceder a los archivos para su análisis.
+
+### Con URL de archivo cargada en este GitHub
+Los datos fueron descargados directamente desde Kaggle y almacenados en este repositorio, a los cuáles se accede utilizando el siguiente enlace:
+
+https://raw.githubusercontent.com/elianasv/Proyecto-IA/main/H1N1_Flu_Vaccines.csv
+
+Y posteriormente leídos utilizando la librería Pandas y almacenados en una variable para su uso
+
+```python
+url = "https://raw.githubusercontent.com/elianasv/Proyecto-IA/main/H1N1_Flu_Vaccines.csv"
+datos = pd.read_csv(url)
+```
