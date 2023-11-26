@@ -86,6 +86,6 @@ https://github.com/manuela-ospinag/Proyecto-IA/blob/main/H1N1_Flu_Vaccines.csv
 Y posteriormente leídos utilizando la librería Pandas y almacenados en una variable para su uso
 
 ```python
-url = "https://raw.githubusercontent.com/elianasv/Proyecto-IA/main/H1N1_Flu_Vaccines.csv"
+url = "https://github.com/manuela-ospinag/Proyecto-IA/blob/main/H1N1_Flu_Vaccines.csv"
 datos = pd.read_csv(url)
 ```
