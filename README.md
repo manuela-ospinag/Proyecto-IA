@@ -78,10 +78,10 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
      
    - Esto descomprime el conjunto de datos y se puede acceder a los archivos para su análisis.
 
-### Con URL de archivo cargada en este GitHub
+### Con URL de archivo cargado en este GitHub
 Los datos fueron descargados directamente desde Kaggle y almacenados en este repositorio, a los cuáles se accede utilizando el siguiente enlace:
 
-https://raw.githubusercontent.com/elianasv/Proyecto-IA/main/H1N1_Flu_Vaccines.csv
+https://github.com/manuela-ospinag/Proyecto-IA/blob/main/H1N1_Flu_Vaccines.csv
 
 Y posteriormente leídos utilizando la librería Pandas y almacenados en una variable para su uso
 
